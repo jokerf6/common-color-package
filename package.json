@@ -1,6 +1,6 @@
 {
   "name": "common-color",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A utility that analyzes an image and returns the most common color present in the image.",
   "type": "commonjs",
   "main": "dist/index.js",
