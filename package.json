@@ -1,8 +1,10 @@
 {
   "name": "common-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility that analyzes an image and returns the most common color present in the image.",
-  "main": "index.js",
+  "main": "dist/index.js", 
+  "module": "dist/index.js", 
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
   },

@@ -1,2 +1,2 @@
-import { greet } from "./getDominantColor";
-export { greet };
+import { getDominantColor } from "./getDominantColor";
+export { getDominantColor };
