@@ -1,0 +1,15 @@
+{
+  "name": "common-color",
+  "version": "1.0.0",
+  "description": "A utility that analyzes an image and returns the most common color present in the image.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Fahd Hakem",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.22.10"
+  }
+
+}
