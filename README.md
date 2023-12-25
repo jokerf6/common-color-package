@@ -11,9 +11,9 @@ Describe your package in a brief statement here.
 
 You can install the package via npm:
 
-````bash
+```bash
 npm install common-color
-
+```
 
 ## Usage
 
@@ -23,4 +23,4 @@ import {getColor} from "common-color"
 getColor("./skill.png", (color) => {
   console.log(color);
 });
-````
+```
