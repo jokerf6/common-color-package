@@ -1,2 +1,1 @@
-import getDominantColor from "./getDominantColor";
-export { getDominantColor };
+export { getColor } from "./getColor";

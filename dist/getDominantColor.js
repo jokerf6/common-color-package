@@ -1,5 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getDominantColor = void 0;
 const Jimp = require("jimp");
-export default async function getDominantColor(imagePath) {
+async function getDominantColor(imagePath) {
     try {
         const image = await Jimp.read(imagePath);
         const width = image.bitmap.width;
@@ -36,6 +39,7 @@ export default async function getDominantColor(imagePath) {
         console.error("Error:", error);
     }
 }
+exports.getDominantColor = getDominantColor;
 // Function to convert RGB to HEX
 function rgbToHex(r, g, b) {
     r = Math.max(0, Math.min(255, r));
