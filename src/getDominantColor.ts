@@ -1,6 +1,6 @@
 const Jimp = require("jimp");
 
-export default async function getDominantColor(imagePath: string) {
+export async function getDominantColor(imagePath: string) {
   try {
     const image = await Jimp.read(imagePath);
 
